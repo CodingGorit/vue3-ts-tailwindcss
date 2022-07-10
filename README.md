@@ -27,6 +27,9 @@ yarn dev
 1. [tailwind](https://www.tailwindcss.cn/docs)
 2. [Vite](https://cn.vitejs.dev/guide/)
 3. [Vue.js](https://v3.vuejs.org/)
+4. [tailwindcss-form-plugin](https://github.com/tailwindlabs/tailwindcss-forms)
 
 # update log
+- 2022年7月11日 新增 @tailwindcss/forms 插件
+- 2022年6月5日 拉出 dev_temp, 新增 axios 和 vue-router 依赖
 - 2022年6月2日 初始化项目环境
