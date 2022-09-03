@@ -8,9 +8,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "axios": "^0.27.2",
+    "nprogress": "^0.2.0",
+    "preline": "^1.1.2",
+    "vue": "^3.2.25",
+    "vue-router": "4"
   },
   "devDependencies": {
+    "@types/node": "^18.7.14",
+    "@types/nprogress": "^0.2.0",
     "@vitejs/plugin-vue": "^2.3.3",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
