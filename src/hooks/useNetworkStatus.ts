@@ -1,16 +1,18 @@
-import { onMounted, onUnmounted } from 'vue';
+import { onMounted, onUnmounted, ref } from 'vue';
 
 /**
  * @usage
- * useNetworkStatus((status) => { 
- *    console.log(`Your network status is ${status}`);
- * }
- * @param callback 
+ * import { onMounted, reactive } from 'vue';
+ * const network = reactive(useNetworkStatus());
+ * console.log("network ", network.isOnline);  
+ * @description check network avaliable
  */
-export const useNetworkStatus = (callback = (status: string) => { }) => {
+export const useNetworkStatus = () => {
+    let isOnline = ref(false);
+    let isOffline = ref(false);
     const updateOnlineStatus = () => {
-        const status = navigator.onLine ? 'online' : 'offline';
-        callback(status);
+        isOnline.value = navigator.onLine;
+        isOffline.value = !isOnline.value;
     }
 
     onMounted(() => {
@@ -21,5 +23,12 @@ export const useNetworkStatus = (callback = (status: string) => { }) => {
     onUnmounted(() => {
         window.removeEventListener('online', updateOnlineStatus);
         window.removeEventListener('offline', updateOnlineStatus);
-    })
+    });
+
+    updateOnlineStatus();
+
+    return {
+        isOnline,
+        isOffline
+    }
 }
