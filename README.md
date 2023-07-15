@@ -1,22 +1,21 @@
-# Vue3 + TypeScript + Vite
+# Vue3 + TypeScript + Vite + tailwindcss
 
 > 一个 Vue3 + vite + typescript + tailwindcss + prelineUI 项目运行脚手架
 
-# features
+## features
 
 - TypeScript support
 - vue3 setup support
 - vite support
 - npm & yarn support
 
-# next
+## next
 
-1. 基于此模板开发后台管理系统
-2. 基于 preline 提供好的 UI 样式，开发出常用的交互组件库
+- [] 页面模板开发
+- [ ]基于此模板开发后台管理系统
+- [ ]基于 preline 提供好的 UI 样式，开发出常用的交互组件库
 
-# How to run it
-
-initlization
+## quick start
 
 ```ts
 npm install -g yarn
@@ -26,7 +25,7 @@ yarn
 yarn dev
 ```
 
-# devlop enviroment
+## recommend devlopment
 
 1. vs code
 2. node
@@ -34,14 +33,14 @@ yarn dev
     - Volar
     - Vite
 
-# link
+## link
 
 1. [tailwind](https://www.tailwindcss.cn/docs)
 2. [Vite](https://cn.vitejs.dev/guide/)
 3. [Vue.js](https://v3.vuejs.org/)
 4. [prelineUI](https://preline.co/)
 
-# update log
+## update log
 
 - 2022年9月4日 继续完善后台框架模板
 - 2022年9月3日 搭建后台管理系统运行环境
