@@ -27,7 +27,7 @@ const commonPath: RouteRecordRaw[] = [
     {
         path: '/404',
         name: '404',
-        component: () => import("@/pages/eexception/404.vue")
+        component: () => import("@/pages/exception/404.vue")
     },
     {
         path: '/offline',
