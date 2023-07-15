@@ -1,4 +1,4 @@
-export interface IResult<T = unknown> {
+export interface IResult<T = any> {
     data: T,
     errorCode: number,
     errorMessage: string
