@@ -4,8 +4,8 @@
             <!-- ========== HEADER ========== -->
             <header class="mb-auto flex justify-center z-50 w-full py-4">
                 <nav class="px-4 sm:px-6 lg:px-8" aria-label="Global">
-                    <a class="flex-none text-xl font-semibold sm:text-3xl dark:text-white" href="#"
-                        aria-label="fmin-courses tech">fmin-courses tech</a>
+                    <!-- <a class="flex-none text-xl font-semibold sm:text-3xl dark:text-white" href="#"
+                        aria-label="fmin-courses tech">fmin-courses tech</a> -->
                 </nav>
             </header>
             <!-- ========== END HEADER ========== -->
@@ -44,7 +44,7 @@
             <!-- ========== FOOTER ========== -->
             <footer class="mt-auto text-center py-5">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <p class="text-sm text-gray-500">© fmin-courses All Rights Reserved. 2022.</p>
+                    <p class="text-sm text-gray-500">© CodingGorit All Rights Reserved. 2023.</p>
                 </div>
             </footer>
             <!-- ========== END FOOTER ========== -->

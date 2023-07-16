@@ -8,7 +8,7 @@
             <BlockQuote content="I love coding"></BlockQuote>
 
             <!-- End Navigation Toggle -->
-            <div class="grid grid-cols-4 gap-4 mt-12">
+            <div class="grid grid-cols-4 gap-12 mt-12 mb-24">
                 <Card title="Card" desc="介绍" :to="{ to: '/aaa', path: 'Card link' }"></Card>
                 <Card title="Card" desc="介绍" :to="{ to: '/aaa', path: 'Card link' }"></Card>
                 <Card title="Card" desc="介绍" :to="{ to: '/aaa', path: 'Card link' }"></Card>
@@ -17,8 +17,7 @@
                 <!-- grid end -->
             </div>
 
-            <BlockQuote content="coding aaa" author="Gorit Smith"></BlockQuote>
-
+            <Pageination></Pageination>
         </div>
 
     </div>
@@ -29,4 +28,5 @@ import SideMenu from '@/components/SideMenu/index.vue';
 import Banners from '@/components/Banners/index.vue';
 import Card from '@/components/widget/Card/index.vue';
 import BlockQuote from '@/components/BlockQuote/index.vue';
+import Pageination from '@/components/Navigation/Pageination/index.vue';
 </script>
