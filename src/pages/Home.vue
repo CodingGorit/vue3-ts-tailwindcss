@@ -5,11 +5,11 @@
 
         <div class="container h-screen">
 
-            <BlockQuote content="I love coding"></BlockQuote>
+            <BlockQuote content="Widgets"></BlockQuote>
 
             <!-- End Navigation Toggle -->
             <div class="grid grid-cols-4 gap-12 mt-12 mb-24">
-                <Card title="Card" desc="介绍" :to="{ to: '/aaa', path: 'Card link' }"></Card>
+                <Card title="小组件 widget" desc="主要 widget 页面" :to="{ to: '/widget', path: 'Widget' }"></Card>
                 <Card title="Card" desc="介绍" :to="{ to: '/aaa', path: 'Card link' }"></Card>
                 <Card title="Card" desc="介绍" :to="{ to: '/aaa', path: 'Card link' }"></Card>
                 <Card title="Card" desc="介绍" :to="{ to: '/aaa', path: 'Card link' }"></Card>
@@ -18,14 +18,14 @@
             </div>
 
             <Pageination></Pageination>
+
+            <Footer></Footer>
         </div>
 
     </div>
 </template>
 
 <script setup lang="ts">
-import SideMenu from '@/components/SideMenu/index.vue';
-import Banners from '@/components/Banners/index.vue';
 import Card from '@/components/widget/Card/index.vue';
 import BlockQuote from '@/components/BlockQuote/index.vue';
 import Pageination from '@/components/Navigation/Pageination/index.vue';
